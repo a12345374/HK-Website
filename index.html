@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Top Universities in Hong Kong</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f7f8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #002855 0%, #01497c 100%);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      height: 100vh;
+      background: url('hkimage3.png') center/cover no-repeat;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 0 1rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+    .hero button {
+      margin-top: 2rem;
+      background-color: #0d6efd;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .hero button:hover {
+      background-color: #063bba;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Hong Kong Uni Guide</div>
+    <nav>
+      <a href="edutripinfo.html">Edutrip Info</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Top Universities in Hong Kong</h1>
+    <button onclick="window.location.href='universities.html'">Explore Universities</button>
+  </section>
+</body>
+</html>

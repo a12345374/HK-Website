@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>Hong Kong Universities Overview</title>
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+ <style>
+   body {
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+     background: #f9f6f1 url('https://www.transparenttextures.com/patterns/graphy.png');
+     color: #333;
+   }
+
+   section {
+     margin-bottom: 5rem;
+   }
+
+   header {
+     background-color: #2c3e50;
+     color: white;
+     padding: 2rem;
+     text-align: center;
+   }
+
+   header h1 {
+     font-size: 2.5rem;
+     margin: 0;
+   }
+
+   .container {
+     max-width: 1100px;
+     margin: 2rem auto;
+     padding: 1rem;
+   }
+
+   .info-grid {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 2rem;
+     align-items: start;
+   }
+
+   .image-container {
+     display: flex;
+     flex-direction: column;
+     gap: 1rem;
+   }
+
+   .image-container img {
+     width: 100%;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+     opacity: 0;
+     transform: translateY(20px);
+     transition: all 1s ease;
+   }
+
+   .card {
+     background-color: #fff;
+     padding: 2rem;
+     border-left: 6px solid currentColor;
+     border-radius: 10px;
+     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease;
+   }
+
+   .card:hover {
+     transform: translateY(-5px);
+   }
+
+   .card h2 {
+     margin-bottom: 0.5rem;
+   }
+
+   .card p, .card li {
+     font-size: 1rem;
+     margin-bottom: 0.6rem;
+   }
+
+   .card ul {
+     padding-left: 1.2rem;
+     margin-top: 0;
+     margin-bottom: 1rem;
+   }
+
+   .footer {
+     text-align: center;
+     padding: 2rem;
+     background-color: #2c3e50;
+     color: white;
+     font-size: 0.9rem;
+   }
+
+   @media (max-width: 768px) {
+     .info-grid {
+       grid-template-columns: 1fr;
+     }
+   }
+ </style>
+</head>
+<body>
+<header>
+  <h1>Hong Kong Universities Overview</h1>
+  <a href="index.html" style="display: inline-block; margin-top: 1rem; background-color: #2c3e50; color: #cdd2d3; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; font-weight: bold;">Back to Home</a>
+</header>
+
+ <div class="container">
+   <section class="info-grid">
+     <div class="image-container">
+       <img src="hku_img2.jpg" alt="HKU Campus" />
+       <img src="hku_img3.jpg" alt="HKU Lecture Hall" />
+     </div>
+     <div class="card" style="color:#a50808">
+       <h2>The University of Hong Kong (HKU)</h2>
+       <p>Founded in 1911, HKU is the oldest tertiary institution in Hong Kong and one of Asia's top universities.</p>
+       <ul>
+        <li>QS Global Ranking #17</li> 
+        <li>Strong emphasis on research and internationalization</li>
+         <li>Top-ranked programs in medicine, law, and architecture</li>
+         <li>Located in Pok Fu Lam on Hong Kong Island</li>
+         <li>Local = 51%, International = 49%</li>
+         <li>Programs offers exchange programs, internships, summer schools, global experiences</li>
+       </ul>
+        <h3>Fun Facts</h3>
+       <ul>
+         <li>HKBU was established in 1956 as a Christian liberal arts university.</li>
+         <li>The Academy of Film is one of the top film schools in Asia.</li>
+         <li>HKBU is home to the largest Chinese Medicine Teaching and Research division in Hong Kong.</li>
+         <li>The school emphasizes Whole Person Education, combining academic learning with ethical and civic development.</li>
+       </ul>
+     </div>
+   </section>
+
+   <section class="info-grid">
+     <div class="image-container">
+       <img src="hkust_img1.jpg" alt="HKUST Building" />
+       <img src="hkust_img2.jpg" alt="HKUST Library" />
+     </div>
+     <div class="card" style="color:#00543D">
+       <h2>The Hong Kong University of Science and Technology (HKUST)</h2>
+       <p>Established in 1991, HKUST is known for science, engineering, and business education.</p>
+       <ul>
+        <li>QS Global Ranking #47</li>
+         <li>Ranked among the top young universities in the world</li>
+         <li>Oceanfront campus located in Clear Water Bay</li>
+         <li>Home to the HKUST Business School and Innovation Hub</li>
+         <li>Local = 57%, International = 43%</li>
+         <li>Program offers student exchanges, research internships, startup supports</li>
+       </ul>
+        <h3>Fun Facts</h3>
+        <ul>
+          <li>HKUST was established in 1991 but rapidly rose in global rankings.</li>
+          <li>Known for its scenic campus overlooking the South China Sea.</li>
+          <li>HKUST is a leader in innovation, with numerous startup incubators and accelerator programs.</li>
+          <li>The university has strong ties with tech giants in Asia and Silicon Valley.</li>
+        </ul>
+     </div>
+   </section>
+
+   <section class="info-grid">
+     <div class="image-container">
+       <img src="cityu_img1.jpg" alt="CityU Main Entrance" />
+       <img src="cityu_img2.jpg" alt="CityU Campus Life" />
+     </div>
+     <div class="card" style="color:rgba(148, 32, 119, 0.712)">
+       <h2>City University of Hong Kong (CityU)</h2>
+       <p>CityU is a dynamic university with a strong focus on research, innovation, and professional education.</p>
+       <ul>
+        <li>QS Global Ranking #62</li>
+         <li>Ranked among the top 100 universities globally</li>
+         <li>Known for computer science, engineering, and creative media</li>
+         <li>Located in Kowloon Tong</li>
+         <li>Local = 67%, International = 33%</li>
+         <li>Programs offers international exchanges, research programs, joint degrees</li>
+       </ul>
+        <h3>Fun Facts</h3>
+        <ul>
+          <li>CityU's School of Creative Media is one of the first in Asia and globally recognized.</li>
+          <li>Known for strong interdisciplinary research and industry collaboration.</li>
+          <li>Hosts the HK Tech 300 startup initiative, funding student entrepreneurship.</li>
+          <li>The campus features modern architecture and high-tech facilities.</li>
+        </ul>
+     </div>
+   </section>
+
+   <section class="info-grid">
+     <div class="image-container">
+       <img src="polyu_img1.jpg" alt="PolyU Skyline" />
+       <img src="polyu_img2.jpg" alt="PolyU Design School" />
+     </div>
+     <div class="card" style="color:#bd060c">
+       <h2>The Hong Kong Polytechnic University (PolyU)</h2>
+       <p>PolyU offers application-oriented education and cutting-edge research, especially in design and engineering.</p>
+       <ul>
+        <li>QS Global Ranking #57</li>
+         <li>One of the largest universities in Hong Kong</li>
+         <li>Famous for its School of Design and Hotel & Tourism Management</li>
+         <li>Located in Hung Hom, Kowloon</li>
+         <li>Total students = 27,200 students</li>
+         <li>Programs offers internship placements, global exchanges, service learning</li>
+       </ul>
+        <h3>Fun Facts</h3>
+        <ul>
+          <li>PolyU’s School of Design is one of the top design schools in Asia and globally recognized.</li>
+          <li>The university is known for strong industry partnerships and applied research impact.</li>
+          <li>PolyU operates the Jockey Club Innovation Tower, designed by Zaha Hadid.</li>
+          <li>It has a strong emphasis on service learning and community engagement projects.</li>
+        </ul>
+     </div>
+   </section>
+
+   <section class="info-grid">
+     <div class="image-container">
+       <img src="cuhkimg1.jpeg" alt="CUHK Campus" />
+       <img src="cuhkimg2.jpg" alt="CUHK College" />
+     </div>
+     <div class="card" style="color:#963aad">
+       <h2>The Chinese University of Hong Kong (CUHK)</h2>
+       <p>CUHK is a comprehensive research university that blends tradition with modern education.</p>
+       <ul>
+        <li>QS Global Ranking #36</li>
+         <li>Collegiate system with unique college identities</li>
+         <li>Known for medicine, business, and Chinese studies</li>
+         <li>Located in Sha Tin</li>
+         <li>Total students = 11,600 students</li>
+         <li>Programs offers study abroad, internships, global leadership programs</li>
+       </ul>
+       <h3>Fun Facts</h3>
+       <ul>
+         <li>CUHK has the largest campus in Hong Kong, spanning over 137 hectares of greenery.</li>
+         <li>It is the only university in Hong Kong with a collegiate system.</li>
+         <li>CUHK pioneered the first Chinese-language MBA program in the world.</li>
+         <li>The university emphasizes bilingual education (English and Chinese) in teaching and research.</li>
+       </ul>
+     </div>
+   </section>
+
+   <section class="info-grid">
+     <div class="image-container">
+       <img src="hkbuimg1.png" alt="HKBU Campus" />
+       <img src="hkbuimg3.jpg" alt="HKBU Arts Hall" />
+     </div>
+     <div class="card" style="color:#003F87">
+       <h2>Hong Kong Baptist University (HKBU)</h2>
+       <p>HKBU is a liberal arts university focused on whole-person education, creativity, and communication.</p>
+       <ul>
+        <li>QS Global Ranking #252</li>
+         <li>Strong in humanities, arts, and communication studies</li>
+         <li>Offers transdisciplinary learning experiences</li>
+         <li>Located in Kowloon Tong</li>
+         <li>Local = 60%, International = 40%</li>
+         <li>Programs offers exchanges, internships, overseas learning</li>
+       </ul>
+       <h3>Fun Facts</h3>
+       <ul>
+         <li>HKBU was established in 1956 as a Christian liberal arts university.</li>
+         <li>The Academy of Film is one of the top film schools in Asia.</li>
+         <li>HKBU is home to the largest Chinese Medicine Teaching and Research division in Hong Kong.</li>
+         <li>The school emphasizes Whole Person Education, combining academic learning with ethical and civic development.</li>
+       </ul>
+     </div>
+   </section>
+ </div>
+
+ <div class="footer">
+   &copy; 2025 Hong Kong Universities Info Page | For educational use only
+ </div>
+
+ <script>
+   const images = document.querySelectorAll(".image-container img");
+   const observer = new IntersectionObserver((entries, observer) => {
+     entries.forEach(entry => {
+       if (entry.isIntersecting) {
+         entry.target.style.opacity = 1;
+         entry.target.style.transform = "translateY(0)";
+         observer.unobserve(entry.target);
+       }
+     });
+   }, {
+     threshold: 0.1
+   });
+
+   images.forEach(img => {
+     observer.observe(img);
+   });
+ </script>
+</body>
+</html>
